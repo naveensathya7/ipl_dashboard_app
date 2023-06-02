@@ -1,1 +1,5 @@
 /* Write your CSS here */
+.not-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  height: 100vh;
+}

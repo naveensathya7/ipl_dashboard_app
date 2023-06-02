@@ -2,6 +2,7 @@
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
 import TeamCard from '../TeamCard'
+
 import './index.css'
 
 class Home extends Component {
@@ -32,7 +33,7 @@ class Home extends Component {
     return (
       <div className="bg-container">
         {isLoading ? (
-          <div data-testid="loader">
+          <div testid="loader">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
@@ -41,7 +42,7 @@ class Home extends Component {
               <img
                 className="logo"
                 src="https://assets.ccbp.in/frontend/react-js/ipl-logo-img.png"
-                alt="logo"
+                alt="ipl logo"
               />
               <h1 className="heading">IPL Dashboard</h1>
             </div>

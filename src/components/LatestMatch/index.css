@@ -1,1 +1,27 @@
 /* Write your CSS here */
+.latest-match-bg {
+  background-color: #1e293b;
+  border-radius: 8px;
+  font-family: 'Bree Serif';
+  padding: 10px;
+  overflow: auto;
+}
+.match-details {
+  display: flex;
+  align-items: center;
+}
+.banner-latest-match {
+  width: 40%;
+  height: 70%;
+}
+.competing-team {
+  text-align: left;
+}
+.text-section {
+  text-align: left;
+  color: #ffffff;
+}
+.text-section-2 {
+  text-align: left;
+  color: #ffffff;
+}
