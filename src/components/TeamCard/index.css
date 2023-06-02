@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  border-radius: 5px;
+  background-color: #ffffff;
+  background: rgba(221, 236, 223, 0.1);
+  width: 45%;
+  border: 2px solid #475569;
+  margin-top: 10px;
+  margin-right: 10px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+.team-logo {
+  width: 40%;
+  height: 50px;
+  margin-right: 10px;
+}
+.team-name {
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    height: 150px;
+    width: 45%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .team-logo {
+    width: 30%;
+    height: 100%;
+  }
+}
